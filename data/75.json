@@ -1,0 +1,40 @@
+{
+  "factor1":["no further devices",
+    "security system with cameras in porch, dining room, living room, and kitchen",
+    "security system with cameras in porch, dining room, living room, and kitchen; plus a smart voice assistant in the living room downstairs and another smart voice assistant in the kitchen",
+    "security system with cameras in porch, dining room, living room, and kitchen; plus a smart voice assistant in the living room downstairs and another smart voice assistant in the kitchen; but in addition a smart thermostat"],
+  "factor2":["some friends","your family (partner and two kids)"],
+  "situation": "Imagine you would be living in a house like the one sketched above. You would be sharing the house with {{f2}}. The following devices were already in place when you moved in: {{f1}}.{% include '3-4.html' %}",
+  "questions":[
+      { "question" : "Where would you do the following?",
+        "qtype": "F",
+        "subquestions" : [
+          { "subquestion" : "Host your (extended) family",
+            "type" : "F" },
+          { "subquestion" : "Hang out with friends",
+              "type" : "F" },
+          { "subquestion" : "Discuss your schedule for the day or the week",
+              "type" : "F" },
+          { "subquestion" : "Sit down to pay bills and do paperwork",
+              "type" : "F" }
+        ],
+        "answers" : [
+          { "answer" : "porch",
+            "value" : "1" },
+          { "answer" : "dining room",
+            "value" : "2" },
+          { "answer" : "living room",
+            "value" : "3"},
+          { "answer" : "kitchen",
+            "value" : "4"},
+          { "answer" : "office",
+            "value" : "5"},
+          { "answer" : "bedroom",
+            "value" : "6"},
+          { "answer" : "guest room",
+            "value" : "7"}
+        ]
+      }
+    ],
+  "name": "(75 P) Activities"
+}

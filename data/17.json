@@ -1,0 +1,27 @@
+{
+  "factor1":["x"],
+  "factor2":["x"],
+  "situation": "",
+  "questions":[
+      { "question" : "In the house sitting scenario described above, how important are the following factors in choosing a house sitter?",
+        "qtype": "F",
+        "subquestions":[
+          {"subquestion" : "Trustworthiness",
+            "type" : "T"},
+          {"subquestion" : "Reliability",
+            "type" : "T"},
+          {"subquestion" : "Intimacy",
+            "type" : "T"},
+          {"subquestion" : "Geographical distance",
+            "type" : "T"},
+          {"subquestion" : "Tech savviness",
+            "type" : "T"},
+          {"subquestion" : "Age",
+            "type" : "T"}
+        ],
+        "answers" : "likert5important"
+      },
+      { "question" : "Would you like to leave a comment?",
+        "qtype": "T"}],
+  "name": "(17 SC) Using Home Security Systems"
+}

@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+ <LimeSurveyDocType>Group</LimeSurveyDocType>
+ <DBVersion>348</DBVersion>
+ <languages>
+  <language>en</language>
+ </languages>
+ <groups>
+  <fields>
+   <fieldname>gid</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>group_name</fieldname>
+   <fieldname>group_order</fieldname>
+   <fieldname>description</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>randomization_group</fieldname>
+   <fieldname>grelevance</fieldname>
+  </fields>
+  <rows>
+    {% groups %}
+    <!-- for intro page -->
+    <row>
+     <gid><![CDATA[2892]]></gid>
+     <sid><![CDATA[585725]]></sid>
+     <group_name><![CDATA[(01 I) About Smart Homes]]></group_name>
+     <group_order><![CDATA[0]]></group_order>
+     <description><![CDATA[]]></description>
+     <language><![CDATA[en]]></language>
+     <randomization_group/>
+     <grelevance/>
+    </row>
+    <!-- consent page -->
+    <row>
+      <gid><![CDATA[4318]]></gid>
+      <sid><![CDATA[585725]]></sid>
+      <group_name><![CDATA[(00 CF) The Smart Home: A Socio-Cultural Perspective]]></group_name>
+      <group_order><![CDATA[0]]></group_order>
+      <description><![CDATA[
+        <p style="text-align: center;">PARTICIPANT CONSENT FORM</p>
+
+        <p style="text-align: center;">Ethics Approval Reference: R54434/RE003</p>
+
+        <p style="margin: 0cm 0cm 0.0001pt;"><strong>General Information</strong></p>
+
+        <p>The aim of this study is to provide insights into the social and cultural context of the smart home. When, how, why, where, and with whom do people use technology in their home.</p>
+
+        <p>You have been invited to participate as you are above 18 years old. Please read through these terms before agreeing to participate by ticking the 'yes' box below.</p>
+
+        <p>You will be presented with scenarios and then asked for recommendations/opinions about them. The information will only be used for the purpose of this research and accessed by the principal researchers: Martin Kraemer and Ivan Flechais (contact details below).</p>
+
+        <p style="margin: 0cm 0cm 0.0001pt;"><strong>Do I have to take part?</strong></p>
+
+        <p>Please note that your participation is voluntary. You may withdraw at any point during the questionnaire for any reason, before submitting your answers, by pressing the 'Exit' button / closing the browser. However, we are only able to pay participants who complete the full survey.</p>
+
+        <p style="margin: 0cm 0cm 0.0001pt;"><strong>How will your data be used?</strong></p>
+
+        <p>We will use all reasonable endeavours to keep them confidential, during collection and processing of data.<br />
+        For data collection, we use Prolific Academic Ltd to recruit participants and LimeSurvey GmbH to run the survey. We will receive personal data from both as detailed below.</p>
+
+        <ul>
+        	<li>As per their <a href="https://www.prolific.ac/assets/docs/Prolific_privacy-policy.pdf">privacy policy</a>, Prolific Academic Ltd are able to provide us with the following personal information, pseudonymous to us through your prolific id:
+
+        	<ul>
+        		<li>age, nationality, ethnicity, gender identity, highest education level, country of birth, household income, property type and ownership, employment status, and technology use at work</li>
+        	</ul>
+        	</li>
+        	<li>We use LimeSurvey GmbH to run the survey (<a href="https://www.limesurvey.org/policies/privacy-policy">privacy policy</a>). Compliant with the General Data Protection Regulation (German Art. 28 DSGVO Datenschutz-Grundverordnung), we have signed a <a href="https://www.limesurvey.org/gdpr-agreements?task=cdocument.downloaddocument&amp;documentid=29">data processing agreement</a> with LimeSurvey GmbH putting us in full control of your data. We collect the following personal data as part of the survey:
+        	<ul>
+        		<li>pseudonyms for people in your household, age range, and gender identity.</li>
+        	</ul>
+        	</li>
+        </ul>
+
+        <p>After data collection, you data will be fully deleted from LimeSurvey GmbH (right to erasure). Your data will be stored fully encrypted within the Department of Computer Science. It may be used in academic publications. Your IP address will not be stored. All questions are optional and we have included a 'Prefer not to say' option for each set of questions if you prefer not to answer a particular question. All research data and records will be stored for a minimum retention period of 10 years after publication or public release of the work of the research.</p>
+
+        <p>The data that we collect from you will NOT be transferred to, and stored or processed at, a destination outside the European Economic Area ("EEA") -- Prolific Academic Ltd. are based in the UK, LimeSurvey GmbH are based in Germany.</p>
+
+        <p><strong>Who will have access to your data?</strong></p>
+
+        <p>The University of Oxford is the data controller for the purposes of the Data Protection Act 1998. Your information will only be accessed by the two researchers (Martin Kraemer and Ivan Flechais) mentioned here.</p>
+
+        <p>Responsible members of the University of Oxford, funders may be given access to data for monitoring and/or audit of the study to ensure we are complying with guidelines, or as otherwise required by law.</p>
+
+        <p>This questionnaire is for an DPhil project. The principal researcher is Martin Kraemer, who is attached to the Department of Computer Science at the University of Oxford. This project is being completed under the supervision of Ivan Flechais.</p>
+
+        <p>This project has been reviewed by, and received ethics clearance through, the University of Oxford Central University Research Ethics Committee R54434/RE003.</p>
+
+        <p style="margin: 0cm 0cm 0.0001pt;"><strong>What if there is a problem?</strong></p>
+
+        <p>If you have a concern about any aspect of this study please contact Mr. Martin Kraemer (<a href="mailto:martin.kraemer@cs.ox.ac.uk">martin.kraemer@cs.ox.ac.uk</a>) or Ivan Flechais (Supervisor - <a href="mailto:ivan.flechais@cs.ox.ac.uk">ivan.flechais@cs.ox.ac.uk</a>), who will do their best to answer your query. The researcher should acknowledge your concern within 10 working days and give you an indication of how they intend to deal with it. If you remain unhappy or wish to make a formal complaint, please contact the relevant chair of the Research Ethics Committee at the University of Oxford who will seek to resolve the matter in a reasonably expeditious manner:</p>
+
+        <p>Chair, Social Sciences & Humanities Interdivisional Research Ethics Committee; Email: <a href="mailto:ethics@socsci.ox.ac.uk">ethics@socsci.ox.ac.uk</a>; Address: Research Services, University of Oxford, Wellington Square, Oxford OX1 2JD</p>
+
+        <p>The Chair will seek to resolve the matter in a reasonably expeditious manner.</p>
+
+        ]]></description>
+      <language><![CDATA[en]]></language>
+      <randomization_group/>
+      <grelevance/>
+     </row>
+  </rows>
+ </groups>
+ <questions>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>parent_qid</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>gid</fieldname>
+   <fieldname>type</fieldname>
+   <fieldname>title</fieldname>
+   <fieldname>question</fieldname>
+   <fieldname>preg</fieldname>
+   <fieldname>help</fieldname>
+   <fieldname>other</fieldname>
+   <fieldname>mandatory</fieldname>
+   <fieldname>question_order</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>scale_id</fieldname>
+   <fieldname>same_default</fieldname>
+   <fieldname>relevance</fieldname>
+   <fieldname>modulename</fieldname>
+  </fields>
+  <rows>
+    {% questions %}
+    <row>
+     <qid><![CDATA[25673]]></qid>
+     <parent_qid><![CDATA[0]]></parent_qid>
+     <sid><![CDATA[585725]]></sid>
+     <gid><![CDATA[4318]]></gid>
+     <type><![CDATA[M]]></type>
+     <title><![CDATA[conset2]]></title>
+     <question><![CDATA[If you have read the information above and agree to participate with the understanding that the data (including any personal data) you submit will be processed accordingly, please check the relevant box below to get started.]]></question>
+     <preg/>
+     <help/>
+     <other><![CDATA[N]]></other>
+     <mandatory><![CDATA[Y]]></mandatory>
+     <question_order><![CDATA[0]]></question_order>
+     <language><![CDATA[en]]></language>
+     <scale_id><![CDATA[0]]></scale_id>
+     <same_default><![CDATA[0]]></same_default>
+     <relevance><![CDATA[1]]></relevance>
+     <modulename/>
+    </row>
+    <row>
+     <qid><![CDATA[25674]]></qid>
+     <parent_qid><![CDATA[0]]></parent_qid>
+     <sid><![CDATA[585725]]></sid>
+     <gid><![CDATA[4318]]></gid>
+     <type><![CDATA[M]]></type>
+     <title><![CDATA[consent]]></title>
+     <question><![CDATA[Please note that you may only participate in this survey if you are 18 years of age or over.]]></question>
+     <preg/>
+     <help/>
+     <other><![CDATA[N]]></other>
+     <mandatory><![CDATA[Y]]></mandatory>
+     <question_order><![CDATA[1]]></question_order>
+     <language><![CDATA[en]]></language>
+     <scale_id><![CDATA[0]]></scale_id>
+     <same_default><![CDATA[0]]></same_default>
+     <relevance><![CDATA[1]]></relevance>
+     <modulename/>
+    </row>
+    <row>
+     <qid><![CDATA[30429]]></qid>
+     <parent_qid><![CDATA[0]]></parent_qid>
+     <sid><![CDATA[585725]]></sid>
+     <gid><![CDATA[4318]]></gid>
+     <type><![CDATA[S]]></type>
+     <title><![CDATA[prolificId]]></title>
+     <question>Please enter your Prolific participant ID.</question>
+     <preg/>
+     <help/>
+     <other><![CDATA[N]]></other>
+     <mandatory><![CDATA[Y]]></mandatory>
+     <question_order><![CDATA[2]]></question_order>
+     <language><![CDATA[en]]></language>
+     <scale_id><![CDATA[0]]></scale_id>
+     <same_default><![CDATA[0]]></same_default>
+     <relevance><![CDATA[1]]></relevance>
+     <modulename/>
+    </row>
+    <!-- for intro page -->
+    <row>
+     <qid><![CDATA[41933]]></qid>
+     <parent_qid><![CDATA[0]]></parent_qid>
+     <sid><![CDATA[585725]]></sid>
+     <gid><![CDATA[2892]]></gid>
+     <type><![CDATA[M]]></type>
+     <title><![CDATA[devices]]></title>
+     <question><![CDATA[Do you own any of these devices?]]></question>
+     <preg/>
+     <help/>
+     <other><![CDATA[N]]></other>
+     <mandatory><![CDATA[N]]></mandatory>
+     <question_order><![CDATA[1]]></question_order>
+     <language><![CDATA[en]]></language>
+     <scale_id><![CDATA[0]]></scale_id>
+     <same_default><![CDATA[0]]></same_default>
+     <relevance><![CDATA[1]]></relevance>
+    </row>
+    <row>
+     <qid><![CDATA[16467]]></qid>
+     <parent_qid><![CDATA[0]]></parent_qid>
+     <sid><![CDATA[585725]]></sid>
+     <gid><![CDATA[2892]]></gid>
+     <type><![CDATA[X]]></type>
+     <title><![CDATA[introinfo]]></title>
+     <question><![CDATA[<meta charset="utf-8" />
+      <p style="text-align: center;"><img alt="" src="/upload/surveys/326165/images/1__efopomskJKZmWpuvMuHIQ.jpeg" style="width: 400px; height: 297px;" /><img alt="" src="/upload/surveys/342925/images/architecture-building-driveway-186077.jpg" style="width: 400px; height: 273px;" /></p>
+
+      <p>What are <i>Smart</i> Homes? Think of various <em>internet-connected devices</em> that are used inside a home. The following devices are relevant for this survey.</p>
+
+      <table border="0" cellpadding="4" cellspacing="4">
+      	<colgroup>
+      		<col />
+      		<col />
+      	</colgroup>
+      	<tbody>
+      		<tr>
+      			<td style="background-color: rgb(221, 221, 221);">
+      			<p dir="ltr"><strong>Smart Lights</strong></p>
+      			</td>
+      			<td style="background-color: rgb(221, 221, 221);">
+      			<p dir="ltr">Remote-controllable (e.g. smart phone app) light bulbs</p>
+
+      			<p dir="ltr">Used to increase convenience, for atmospheric light, or to disguise the presence of home owners</p>
+      			</td>
+      		</tr>
+      		<tr>
+      			<td>
+      			<p dir="ltr"><strong>Smart Security System</strong></p>
+      			</td>
+      			<td>
+      			<p dir="ltr">Remote-controllable (e.g. smart phone app) cameras and/or motion sensors for surveillance, indoors and outdoors</p>
+
+      			<p dir="ltr">Some vendors offer triage services, liaising between police and home owners</p>
+      			</td>
+      		</tr>
+      		<tr>
+      			<td style="background-color: rgb(221, 221, 221);">
+      			<p dir="ltr"><strong>Smart Thermostats</strong></p>
+      			</td>
+      			<td style="background-color: rgb(221, 221, 221);">
+      			<p dir="ltr">Remote-controllable (e.g. smart phone app)</p>
+
+      			<p dir="ltr">Intelligently adjusts building temperature based on previously stored data</p>
+      			</td>
+      		</tr>
+      		<tr>
+      			<td>
+      			<p dir="ltr"><strong>Smart Sockets/plugs</strong></p>
+      			</td>
+      			<td>
+      			<p dir="ltr">Remote-controllable (e.g. smart phone app) sockets or plugs that are daisy-chained between the wall socket and any device/appliance in the home.</p>
+      			</td>
+      		</tr>
+      		<tr>
+      			<td style="background-color: rgb(221, 221, 221);">
+      			<p dir="ltr"><strong>Smart Voice Assistant</strong></p>
+      			</td>
+      			<td style="background-color: rgb(221, 221, 221);">
+      			<p dir="ltr">Voice-control enabled device such as Amazon Alexa or Google Home which can answer online searches, order products online, and play music; it can also be connected to other devices</p>
+      			</td>
+      		</tr>
+      		<tr>
+      			<td>
+      			<p dir="ltr"><strong>Smart Vacuum Cleaner</strong></p>
+      			</td>
+      			<td>
+      			<p dir="ltr">Remote-controllable (e.g. smart phone app) autonomous vacuum cleaning robot such as the Roomba</p>
+      			</td>
+      		</tr>
+      	</tbody>
+      </table>
+      ]]>
+    </question>
+     <preg/>
+     <help/>
+     <other><![CDATA[N]]></other>
+     <mandatory><![CDATA[N]]></mandatory>
+     <question_order><![CDATA[0]]></question_order>
+     <language><![CDATA[en]]></language>
+     <scale_id><![CDATA[0]]></scale_id>
+     <same_default><![CDATA[0]]></same_default>
+     <relevance><![CDATA[1]]></relevance>
+     <modulename/>
+    </row>
+  </rows>
+ </questions>
+ <subquestions>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>parent_qid</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>gid</fieldname>
+   <fieldname>type</fieldname>
+   <fieldname>title</fieldname>
+   <fieldname>question</fieldname>
+   <fieldname>preg</fieldname>
+   <fieldname>help</fieldname>
+   <fieldname>other</fieldname>
+   <fieldname>mandatory</fieldname>
+   <fieldname>question_order</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>scale_id</fieldname>
+   <fieldname>same_default</fieldname>
+   <fieldname>relevance</fieldname>
+   <fieldname>modulename</fieldname>
+  </fields>
+  <rows>
+   {% subquestions %}
+   <row>
+    <qid><![CDATA[25999]]></qid>
+    <parent_qid><![CDATA[25673]]></parent_qid>
+    <sid><![CDATA[585725]]></sid>
+    <gid><![CDATA[4318]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[SQ001]]></title>
+    <question><![CDATA[Yes, I agree to take part]]></question>
+    <other><![CDATA[N]]></other>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+   </row>
+   <row>
+    <qid><![CDATA[25998]]></qid>
+    <parent_qid><![CDATA[25674]]></parent_qid>
+    <sid><![CDATA[585725]]></sid>
+    <gid><![CDATA[4318]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ001]]></title>
+    <question><![CDATA[<p>I certify that I am 18 years of age or over.</p>]]></question>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[41934]]></qid>
+    <parent_qid><![CDATA[41933]]></parent_qid>
+    <sid><![CDATA[585725]]></sid>
+    <gid><![CDATA[2892]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[SQ001]]></title>
+    <question><![CDATA[Smart Lights]]></question>
+    <other><![CDATA[N]]></other>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+   </row>
+   <row>
+    <qid><![CDATA[41935]]></qid>
+    <parent_qid><![CDATA[41933]]></parent_qid>
+    <sid><![CDATA[585725]]></sid>
+    <gid><![CDATA[2892]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[SQ002]]></title>
+    <question><![CDATA[Smart Thermostat]]></question>
+    <other><![CDATA[N]]></other>
+    <question_order><![CDATA[2]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+   </row>
+   <row>
+    <qid><![CDATA[41936]]></qid>
+    <parent_qid><![CDATA[41933]]></parent_qid>
+    <sid><![CDATA[585725]]></sid>
+    <gid><![CDATA[2892]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[SQ003]]></title>
+    <question><![CDATA[Smart Security System]]></question>
+    <other><![CDATA[N]]></other>
+    <question_order><![CDATA[3]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+   </row>
+   <row>
+    <qid><![CDATA[41937]]></qid>
+    <parent_qid><![CDATA[41933]]></parent_qid>
+    <sid><![CDATA[585725]]></sid>
+    <gid><![CDATA[2892]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[SQ004]]></title>
+    <question><![CDATA[Smart Sockets/Plugs]]></question>
+    <other><![CDATA[N]]></other>
+    <question_order><![CDATA[4]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+   </row>
+   <row>
+    <qid><![CDATA[41938]]></qid>
+    <parent_qid><![CDATA[41933]]></parent_qid>
+    <sid><![CDATA[585725]]></sid>
+    <gid><![CDATA[2892]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[SQ005]]></title>
+    <question><![CDATA[Smart Voice Assistant]]></question>
+    <other><![CDATA[N]]></other>
+    <question_order><![CDATA[5]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+   </row>
+   <row>
+    <qid><![CDATA[41939]]></qid>
+    <parent_qid><![CDATA[41933]]></parent_qid>
+    <sid><![CDATA[585725]]></sid>
+    <gid><![CDATA[2892]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[SQ006]]></title>
+    <question><![CDATA[Smart Vacuum Cleaner]]></question>
+    <other><![CDATA[N]]></other>
+    <question_order><![CDATA[6]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+   </row>
+  </rows>
+ </subquestions>
+ <answers>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>code</fieldname>
+   <fieldname>answer</fieldname>
+   <fieldname>sortorder</fieldname>
+   <fieldname>assessment_value</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>scale_id</fieldname>
+  </fields>
+  <rows>
+   {% answers %}
+  </rows>
+ </answers>
+
+</document>

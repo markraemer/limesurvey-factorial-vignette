@@ -1,0 +1,34 @@
+{
+    "factor1":["a friend living next door who is good with technology",
+    "a friend living next door who is NOT good with technology",
+    "a friend living across town who is good with technology",
+    "a friend living across town who is NOT good with technology",
+    "a colleague living next door who is good with technology",
+    "a colleague living next door who is NOT good with technology",
+    "a colleague living across town who is good with technology",
+    "a colleague living across town who is NOT good with technology"
+  ],
+  "factor2":["x"],
+  "situation": "<p><img alt=\"\" src=\"/upload/surveys/342925/images/closed-coming-soon-door-4291.jpg\" style=\"width: 401px; height: 267px;\" /></p>Now we are looking at different scenarios. In the first scenario, Peter and Paula are preparing for vacation. <br> <br> In response to burglaries in their neighbourhood, they have recently installed a home <em>security system</em> covering areas in and outside the house. A smart phone app allows them to remotely monitor and control the system.<br><br> Anna, {{f1}}, would be available to look after their house. She would be the first point of contact and may need to interact with the system.",
+  "questions":[
+    { "question" : "What do you recommend Peter and Paula do?",
+      "qtype": "L",
+      "answers":[
+        {"answer" : "Ask Anna to look after the house. Don't use remote monitoring.",
+          "type" : "T",
+          "value" : "1"},
+        {"answer" : "Don't ask Anna. Use the remote monitoring feature instead.",
+          "type" : "T",
+          "value" : "2"},
+        {"answer" : "Ask Anna. In addition, Peter and Paula should remotely monitor the house.",
+          "type" : "T",
+          "value" : "3"},
+        {"answer" : "Don't ask Anna and don't do any remote monitoring.",
+          "type" : "T",
+          "value" : "4"}
+      ]
+    },
+      { "question" : "Would you like to leave a comment?",
+        "qtype": "T"}],
+  "name": "(15 SC) Using Home Security Systems"
+}

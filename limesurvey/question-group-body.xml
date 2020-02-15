@@ -1,0 +1,19 @@
+<row>
+  <qid><![CDATA[{{qid}}]]></qid>
+  <parent_qid><![CDATA[0]]></parent_qid>
+  <sid><![CDATA[585725]]></sid>
+  <gid><![CDATA[{{gid}}]]></gid>
+  <type><![CDATA[{{qtype}}]]></type>
+  <title><![CDATA[{% if code != '0' %}{{code}}{% else %}norm{{qid}}{% endif %}]]></title>
+  <question><![CDATA[{{question|safe}}]]></question>
+  <preg/>
+  <help/>
+  <other><![CDATA[N]]></other>
+  <mandatory><![CDATA[N]]></mandatory>
+  <question_order><![CDATA[{{qid}}]]></question_order>
+  <language><![CDATA[en]]></language>
+  <scale_id><![CDATA[0]]></scale_id>
+  <same_default><![CDATA[0]]></same_default>
+  <relevance><![CDATA[1]]></relevance>
+  <modulename/>
+</row>

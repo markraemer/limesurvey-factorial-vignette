@@ -1,0 +1,40 @@
+{
+  "factor1":["x"],
+  "factor2":["x"],
+  "situation": "Pascal and Amy have a new smart voice assistant (Alexa) in their living room. Because the device responds to their questions, they are wondering if it, in fact, listens all the time. When asked about that, Alexa responded \"I don't know what you mean\".",
+  "questions": [
+    {"question" : "How likely is each of the following statements to be true?",
+      "qtype" : "F",
+      "subquestions" : [
+        { "subquestion" : "Alexa only listens when she is called. So it's just a matter of being thoughtful when talking to her.",
+          "type": "T"},
+        {"subquestion": "Alexa might be listening but Amazon is unlikely to be interested in all the conversations.",
+          "type": "T"},
+        {"subquestion": "Even if Alexa was listening all the time, and Amazon was interested in the conversations, what harm could that possibly do.",
+          "type": "T"},
+        {"subquestion": "It's a reasonable thought to belief that Alexa is listening at all times.",
+          "type": "T"}],
+          "answers": "likert5like"
+      },
+      {"question" : "Their friends Mary and Tom haven't been visiting since Amy and Pascal got Alexa. They are coming over for dinner. Please answer the following questions.",
+        "qtype" : "F",
+        "subquestions" : [
+          {"subquestion" : "If you were either Amy or Pascal, would you tell Mary and Tom about Alexa?",
+            "type": "T"},
+          {"subquestion": "Do you think that most people would tell them about Alexa?",
+            "type": "T"},
+          {"subquestion": "Do you think it's right for Amy and Pascal to inform Tom and Mary about Alexa?",
+            "type": "T"},
+          {"subquestion": "Do you believe that most people think it's right for Amy and Pascal to do so?",
+            "type": "T"}],
+        "answers" : [
+          {"answer" : "Yes",
+            "type" : "T",
+            "value" : "1"},
+          {"answer" : "No",
+            "type" : "T",
+            "value" : "2"}]
+        }
+    ],
+  "name": "(70 S) Social Norms - Smart Voice Assistant"
+}

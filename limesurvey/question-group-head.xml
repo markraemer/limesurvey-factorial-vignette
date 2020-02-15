@@ -1,0 +1,21 @@
+{% set count = [1] %}
+{% set totalnum = factor1|length * factor2|length %}
+  {% for f1 in factor1 %}
+    {% for f2 in factor2 %}
+<row>
+<gid><![CDATA[{{goffset + count[0]}}]]></gid>
+<sid><![CDATA[585725]]></sid>
+<group_name><![CDATA[{{group_name}}]]></group_name>
+<group_order><![CDATA[{{goffset + count[0]}}]]></group_order>
+   <description><![CDATA[{% include 'temp' %}]]></description>
+<language><![CDATA[en]]></language>
+<randomization_group/>
+{% if totalnum > 1 %}
+<grelevance><![CDATA[(((groupalloc- {{totalnum}} * floor(groupalloc/ {{totalnum}}))=={{count[0]-1}}){{relevance|safe}})]]></grelevance>
+{% else %}
+<grelevance/>
+{% endif %}
+</row>
+    {% if count.append(count.pop() + 1) %}{% endif %} {# increment count by 1 #}
+  {% endfor %}
+{% endfor %}

@@ -1,0 +1,42 @@
+{
+  "factor1":["security system", "light system", "thermostat", "smart voice assistant", "television"],
+  "factor2":["his partner", "his three housemates", "his parents"],
+  "situation": "What is Kevin's responsibility in the following scenario? <br><br> He is living with <em>{{f2}}</em>. He is wondering if he should talk to {{f2}} about the <em>{{f1}}</em> he is considering to buy.",
+  "questions":[
+    { "question" : "How important is it for him to make sure that adults in the house ...",
+      "qtype": "F",
+      "subquestions":[
+        {"subquestion" : "understand what the device does.",
+          "type" : "T"},
+        {"subquestion" : "are consulted before buying the device.",
+          "type" : "T"},
+        {"subquestion" : "consent to using the device at home.",
+          "type" : "T"},
+        {"subquestion" : "are allowed to use the device.",
+          "type" : "T"},
+        {"subquestion" : "are informed about the device's existence.",
+          "type" : "T"}],
+        "answers" : "likert5important"},
+      { "question" : "Please rank the answers above in importance.",
+        "qtype": "R",
+        "answers":[
+          {"answer" : "understand what the device does.",
+            "type" : "T",
+            "value" : "1"},
+          {"answer" : "are consulted before buying the device.",
+            "type" : "T",
+            "value" : "2"},
+          {"answer" : "consent to using the device at home.",
+            "type" : "T",
+            "value" : "3"},
+          {"answer" : "are allowed to use the device.",
+            "type" : "T",
+            "value" : "4"},
+          {"answer" : "are informed of the device's existence.",
+            "type" : "T",
+            "value" : "5"}]
+      },
+      { "question" : "Would you like to leave a comment?",
+        "qtype": "T"}],
+  "name": "(30 SN) The Acceptance Factor"
+}

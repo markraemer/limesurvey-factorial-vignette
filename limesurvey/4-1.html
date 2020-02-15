@@ -1,0 +1,7 @@
+<script type="text/javascript" charset="utf-8">
+	$(document).on('ready pjax:scriptcomplete',function(){
+      console.log('running removal of empty items');
+  $('.answertext').each(function(i,value) { if($(this).text().trim()=='') { $(this).parent().css({ 'display' : 'none' });} });
+  $('.list-question-select').children().each(function(i,value) {if($(this).text().trim()=='') { $(this).css({'display':'none'}) } } );
+  	});
+</script>

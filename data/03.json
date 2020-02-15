@@ -1,0 +1,34 @@
+{
+  "factor1":["x"],
+  "factor2":["x"],
+  "situation": " ",
+  "questions":[
+    {"question" : "Please read these statements carefully. How much do you agree or disagree with each statement?",
+      "qtype": "F",
+      "subquestions":[
+        {"subquestion" : "Tech is my hobby. I will buy and try new devices whenever I can.",
+          "type" : "T"},
+        {"subquestion" : "I want to understand how these devices work, what their benefits and limitations are.",
+          "type" : "T"},
+        {"subquestion" : "Internet-connected devices are for younger people who are more interested and engaged.",
+          "type" : "T"},
+        {"subquestion" : "I like to do things myself and don't need technology to support me.",
+          "type" : "T"},
+        {"subquestion" : "I can't be bothered to find workarounds if something doesn't work as expected.",
+          "type" : "T"
+        },
+        {"subquestion" : "I have my reservation because of risks attached to using technology.",
+          "type" : "T"
+        },
+        {"subquestion" : "If I had a choice, I'd rather not use any technology like Wifi, computers and so on.",
+          "type" : "T"
+        },
+        {"subquestion" : "I'm happy to use internet-connected (smart) devices as long as they improve my life.",
+          "type" : "T"
+        }],
+    "answers" : "likert5"
+    },
+    { "question" : "Would you like to leave a comment?",
+      "qtype": "T"}],
+  "name": "(03 A) General Attitude"
+}

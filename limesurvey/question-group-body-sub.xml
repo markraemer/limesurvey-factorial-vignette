@@ -1,0 +1,15 @@
+   <row>
+    <qid><![CDATA[{{qid}}]]></qid>
+    <parent_qid><![CDATA[{{pqid}}]]></parent_qid>
+    <sid><![CDATA[585725]]></sid>
+    <gid><![CDATA[{{gid}}]]></gid>
+    <type><![CDATA[{{sqtype}}]]></type>
+    <title><![CDATA[{{sqtitle}}]]></title>
+    <question><![CDATA[{{text}}]]></question>
+    <other><![CDATA[N]]></other>
+    <question_order><![CDATA[{{qid}}]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[{{scale}}]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+   </row>

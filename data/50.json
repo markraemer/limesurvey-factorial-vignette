@@ -1,0 +1,21 @@
+{
+  "factor1":["x"],
+  "factor2":["x"],
+  "situation": "<p><img src=\"/upload/surveys/342925/images/lights.jpg\" style=\"width: 400px; height: 265px;\" /><span style=\"font-size:10px;\"><a href=\"https://www.flickr.com/photos/philips_newscenter/12499491734/\">Source </a>- Smart light system with remote control</span></p> The people in this scenario struggle with a new <em>light system</em>. How can they make it work? </br></br> Claudia, Adam, Marcus, and Monica installed smart lights in the hall and the living room. They can remote control the light, change the color and turn it on or off. For the remote control to work, the wall light switches need to remain in the 'on' position at all times. However, one of the residents has the habit of using the wall switches to turn off the lights. As a result, other residents find themselves unable to use the remote control to turn the lights back on.",
+  "questions":[
+    { "question" : "What should they do to solve the problem?",
+      "qtype": "F",
+      "subquestions":[
+        {"subquestion" : "Fully replace the original system so that the problem will go away. The replacement requires infrastructure adaptations.",
+          "type" : "T"},
+        {"subquestion" : "Nothing right now. They will eventually get used to the new system.",
+          "type" : "T"},
+        {"subquestion" : "Stop using it. The system doesn't seem to provide the benefits they were looking for.",
+          "type" : "T"}],
+      "answers" : "likert5"
+      },
+      { "question" : "Would you like to leave a comment?",
+        "qtype": "T"}
+    ],
+  "name": "(50 SLL) Smart Lights"
+}

@@ -1,0 +1,67 @@
+{
+  "factor1":["light system",
+  "smart security system",
+  "smart thermostat. It will automatically regulate the heating once configured"],
+  "factor2":["x"],
+  "situation": "This scenario assumes that a particular device exists in your household. You will state who might configure it, and how it is likely to be used.<br><br>In your house you have a <em>{{f1}}</em>. The system can be configured and controlled using a smartphone application. You need to make use of the system. {% include '4-1.html' %}",
+  "questions":[
+      { "question" : "Who would configure the system?",
+        "qtype": "X!",
+        "answers" : [
+          {"answer": "1-placeholder",
+            "value":""},
+          {"answer": "1-placeholder",
+            "value":""},
+          {"answer": "1-placeholder",
+            "value":""}
+          ]},
+      { "question" : "Are there other household members who could configure the system?",
+        "qtype": "XF",
+        "subquestions" : [
+          { "subquestion" : "1-placeholder",
+            "type" : "F" },
+          { "subquestion" : "1-placeholder",
+              "type" : "F" }
+        ],
+        "answers" : [
+          { "answer" : "Would be equally able and willing to do so",
+            "value" : "1" },
+          { "answer" : "Would be willing but would need help to do so",
+            "value" : "2" },
+          { "answer" : "Would not want anyone else to configure the system",
+            "value" : "3" },
+          { "answer" : "Would not be interested in changing the configuration.",
+            "value" : "4"}
+        ]
+      },
+      { "question" : "How is the system going to be used?",
+        "qtype": "XF",
+        "subquestions" : [
+          { "subquestion" : "1-placeholder",
+            "type" : "F" },
+          { "subquestion" : "1-placeholder",
+              "type" : "F" }
+        ],
+        "answers" : [
+          { "answer" : "would use the system and appreciate the benefits",
+            "value" : "1" },
+          { "answer" : "would use the system but might struggle",
+            "value" : "2" },
+          { "answer" : "would be happy to use the system but not willing to maintain it",
+            "value" : "3" },
+            { "answer" : "would not want to use the system ",
+              "value" : "4" },
+          { "answer" : "would appreciate the benefits but would not want to use the system",
+            "value" : "5"},
+          { "answer" : "would object to having such a system",
+            "value" : "6"},
+          { "answer" : "wouldn't be allowed access",
+              "value" : "7"}
+        ]
+      },
+      { "question" : "Would you like to leave a comment?",
+        "qtype": "T"}
+    ],
+  "name": "(10 SA) Social Context and Device Usage",
+  "relevance" : "people"
+}

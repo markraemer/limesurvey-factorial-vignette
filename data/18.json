@@ -1,0 +1,32 @@
+{
+  "factor1":["x"],
+  "factor2":["x"],
+  "situation": "Following on within the house sitting scenario.",
+  "questions":[
+    { "question" : "Please rank the factors in preference.",
+        "qtype": "R",
+        "answers":[
+          {"answer" : "Trustworthiness",
+            "type" : "T",
+            "value" : "1"},
+          {"answer" : "Reliability",
+            "type" : "T",
+            "value" : "2"},
+          {"answer" : "Intimacy",
+            "type" : "T",
+            "value" : "3"},
+          {"answer" : "Geographical distance",
+            "type" : "T",
+            "value" : "4"},
+          {"answer" : "Tech savviness",
+            "type" : "T",
+            "value" : "5"},
+          {"answer" : "Age",
+            "type" : "T",
+            "value" : "6"}
+        ]
+      },
+      { "question" : "Would you like to leave a comment?",
+        "qtype": "T"}],
+  "name": "(18 SC) Using Home Security Systems"
+}

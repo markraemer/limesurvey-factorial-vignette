@@ -1,0 +1,21 @@
+{
+  "factor1":["x"],
+  "factor2":["x"],
+  "situation": "<p><img alt=\"\" src=\"/upload/surveys/342925/images/roomba.jpg\" style=\"width: 400px; height: 265px;\" /><span style=\"font-size:10px;\"><a href=\"https://www.flickr.com/photos/wonderkris/32627151070/\"> Source</a> - Roomba cleaning pattern</span></p> Claudia, Adam, Marcus, and Monica had different opinions on order and cleanliness. They couldn't agree on and stick to a cleaning plan. A new <em>Roomba (autonomous vacuum cleaner)</em> seemed like a promising solution. But as the robot could only clean free space on the floor -- and the floor was never quite tidy -- the discussions came up time and again.",
+  "questions":[
+    {"question" : "What would you recommend them do to solve the problem?",
+      "qtype": "F",
+      "subquestions":[
+        {"subquestion" : "Hire cleaning personnel instead of doing the cleaning themselves.",
+          "type" : "T"},
+        {"subquestion" : "Nothing right now. They will eventually get used to the new system and keeping the floor tidy.",
+          "type" : "T"},
+        {"subquestion" : "Stop using the cleaner entirely as it doesn't seem to be providing the expected benefits.",
+          "type" : "T"
+        }],
+    "answers" : "likert5"
+    },
+    { "question" : "Would you like to leave a comment?",
+      "qtype": "T"}],
+  "name": "(55 SLL) House Keeping"
+}

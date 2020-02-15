@@ -1,0 +1,24 @@
+{
+  "factor1":["x"],
+  "factor2":["x"],
+  "situation": "<p><img alt=\"\" src=\"/upload/surveys/342925/images/socket.jpg\" style=\"width: 400px; height: 265px;\" /><span style=\"font-size:10px;\"><a href=\"https://www.flickr.com/photos/notesonhobbies/30614914772/\"> Source</a> - Smart Plug used to control lights</span></p> The couple installed <em>smart sockets to control lights</em>. One of them struggles with using them. What should he do?<br><br> John and his partner recently installed some smart plugs to remote control standard lamps in the living room - in addition to the normal lights. Using an app on their mobile phones they can switch the sockets and therefore the lights on and off. John hasn't installed the app on his phone, so he can't remote control the lights. His partner, however, has and uses them a lot. John finds himself in a situation where he wants to use the lights, but his partner isn't home.",
+  "questions":[
+    { "question" : "What do you suggest John do?",
+      "qtype": "F",
+      "subquestions":[
+        {"subquestion" : "Message his partner to switch on the lights.",
+          "type" : "T"},
+        {"subquestion" : "Download the app, set it up, and switch the lights on.",
+          "type" : "T"},
+        {"subquestion" : "Remove the smart sockets between the plug and the wall sockets then switch on the lights.",
+          "type" : "T"},
+        {"subquestion" : "Wait for his partner to return.",
+          "type" : "T"}
+      ],
+      "answers" : "likert5like"
+      },
+      { "question" : "Would you like to leave a comment?",
+        "qtype": "T"}]
+      ,
+  "name": "(60 SLL) Light Systems"
+}

@@ -1,0 +1,16 @@
+{
+  "factor1":["close friend", "colleague", "neighbour", "contractor"],
+  "factor2":["in the hall, the living room, and the kitchen","overlooking the garden, the driveway, and parts of the street"],
+  "situation": "Peter has just finished installing cameras {{f2}} to protect the household from burglaries. His {{f1}} Philip comes to his house. When Philip arrives, Peter wonders if he should inform him about the cameras which are switched on at all times.",
+  "questions": [
+    {"question": "If you were Peter, would you tell Philip about the camera?",
+      "qtype": "Y"},
+    {"question": "Do you think that most people would tell Philip about the camera?",
+      "qtype": "Y"},
+    {"question": "Do you think it's right for Peter to inform Philip about the cameras?",
+      "qtype": "Y"},
+    {"question": "Do you believe that most people think it's right for Peter to do so?",
+      "qtype": "Y"}
+    ],
+  "name": "(65 S) Smart Security Systems"
+}

@@ -1,0 +1,9 @@
+<row>
+<qid><![CDATA[{{pqid}}]]></qid>
+<code><![CDATA[{{code}}]]></code>
+<answer><![CDATA[{{text}}]]></answer>
+<sortorder><![CDATA[1]]></sortorder>
+<assessment_value><![CDATA[{{value}}]]></assessment_value>
+<language><![CDATA[en]]></language>
+<scale_id><![CDATA[{{scale}}]]></scale_id>
+</row>

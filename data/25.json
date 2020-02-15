@@ -1,0 +1,24 @@
+{
+  "factor1":["For a short stay over (weekend),", "For a longer stay (1 week),"],
+  "factor2":["their niece (15) and nephew (19)","their mum (60, teacher) and dad (63, banker)","close friends, Maureen (45, banker) and Edward (50, secretary),","colleagues from work"],
+  "situation": "In this scenario, the residents are wondering how to prepare their house for guests. </br></br> Oliver (30, IT professional) and Grace (31, project manager) use a home automation system for lights, heating, and security management. To enable its two main functions, remote control and automated management, the homeowners' phones are paired with the system. As the owners (with their phones) leave the house, the system regulates the heating, switches off the lights, and activates the security.<br>This works well for them but problems may arise when they have guests over. </br></br> <em>{{f1}}</em> they invite <em>{{f2}}</em> to their home.",
+  "questions":[
+    { "question" : "How would you recommend Grace and Oliver accommodate their guests?",
+      "qtype": "L",
+      "answers":[
+        {"answer" : "There is no need to give their guests access to the system.",
+          "type" : "T",
+          "value" : "1"},
+        {"answer" : "Pair the guests' phones with the system.",
+          "type" : "T",
+          "value" : "2"},
+        {"answer" : "Adjust the system so that their guests don't need to use their phones for access.",
+          "type" : "T",
+          "value" : "3"},
+        {"answer" : "The choice should be left to their guests, and they should be asked when they arrive.",
+          "type" : "T",
+          "value" : "4"}]},
+      { "question" : "Would you like to leave a comment?",
+        "qtype": "T"}],
+  "name": "(25 SC) Hospitality"
+}
